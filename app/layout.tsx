@@ -6,27 +6,41 @@ import './globals.css'
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+  title: {
+    template: '%s | Finbro',
+    default: 'Finbro - Stock Market Analytics'
   },
-}
+  description: 'Finbro provides real-time analytics and insights for stock market trading and investments.',
+  keywords: ['stock analytics', 'market insights', 'trading', 'investments', 'finbro'],
+  authors: [{ name: 'Finbro Team' }],
+  creator: 'Finbro',
+  publisher: 'Finbro',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Finbro',
+    title: 'Finbro - Stock Market Analytics',
+    description: 'Advanced analytics for stock market trends and trading decisions.',
+    images: '/og-image.png' 
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Finbro - Stock Market Analytics',
+    description: 'Real-time stock analytics platform.',
+    images: '/twitter-image.png'
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1
+    }
+  },
+};
 
 export default function RootLayout({
   children,
