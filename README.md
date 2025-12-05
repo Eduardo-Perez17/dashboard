@@ -1,30 +1,196 @@
-# FINBRO Dashboard
+\Here is a clean, professional, production-ready **README.md** for your stock-price dashboard project, written fully in **English**, and tailored to your Next.js 16 + Tailwind + Radix UI + shadcn-related stack.
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+If you want, I can also generate:
+✅ badges,
+✅ screenshots section,
+✅ environment variables section,
+✅ deployment guide,
+or a more minimal version.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/eduardoperez17s-projects/v0-finbro-dashboard)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/TkhbYHq9QkI)
+---
 
-## Overview
+# 📄 **README.md**
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+````md
+# 📊 Stock Price Dashboard
 
-## Deployment
+A modern and interactive dashboard built with **Next.js 16**, **React 19**, **Tailwind CSS**, and **Radix UI**, designed to visualize and track stock market prices in real time.  
+This project provides a clean UI, fast performance, and flexible components for building financial insights and analytics interfaces.
 
-Your project is live at:
+---
 
-**[https://vercel.com/eduardoperez17s-projects/v0-finbro-dashboard](https://vercel.com/eduardoperez17s-projects/v0-finbro-dashboard)**
+## 🚀 Features
 
-## Build your app
+- 📈 **Real-time and historical stock price visualization**  
+- ⚡ Built with **Next.js 16 App Router** for optimal performance
+- 🎨 **Tailwind CSS** + custom UI components using Radix + shadcn style patterns
+- 🌓 **Theme support** (light/dark) using `next-themes`
+- 📦 Modular architecture for adding tickers, charts, and widgets
+- 📊 Interactive charts with **Recharts**
+- 🧭 Responsive and accessible UI based on Radix primitives
+- 🔐 Form validation with **React Hook Form + Zod**
 
-Continue building your app on:
+---
 
-**[https://v0.app/chat/TkhbYHq9QkI](https://v0.app/chat/TkhbYHq9QkI)**
+## 🧰 Tech Stack
 
-## How It Works
+**Framework:**  
+- Next.js 16  
+- React 19  
+- TypeScript
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+**UI & Styling:**  
+- Tailwind CSS 4  
+- Radix UI components  
+- Lucide Icons  
+- Recharts for charts  
+- Vaul & CMDK for UI interactions  
+- Tailwind Merge & Tailwindcss Animate
+
+**Forms & Validation:**  
+- React Hook Form  
+- Zod  
+- Hookform Resolvers
+
+**Utilities:**  
+- date-fns  
+- clsx / cva  
+- @vercel/analytics
+
+---
+
+## 📦 Installation
+
+```bash
+git clone <your-repo-url>
+cd dashboard
+pnpm install     # or npm install / yarn install
+````
+
+---
+
+## 🏃‍♂️ Running the Project
+
+### Development
+
+```bash
+npm run dev
+```
+
+Runs the dashboard in development mode at:
+
+```
+http://localhost:3000
+```
+
+### Production Build
+
+```bash
+npm run build
+npm run start
+```
+
+---
+
+## 🗂️ Project Structure
+
+```
+dashboard/
+├─ app/
+│  ├─ layout.tsx
+│  ├─ page.tsx
+│  └─ api/...
+├─ components/
+│  ├─ ui/
+│  ├─ charts/
+│  ├─ layout/
+│  └─ ...
+├─ lib/
+├─ styles/
+├─ public/
+└─ README.md
+```
+
+---
+
+## 📡 API Integration (Optional)
+
+The dashboard can fetch price data from:
+
+* Alpha Vantage
+* Yahoo Finance
+* Finnhub
+* Polygon.io
+
+You can configure your API keys in:
+
+```
+.env.local
+```
+
+Example:
+
+```
+NEXT_PUBLIC_STOCK_API_KEY=your_api_key_here
+```
+
+---
+
+## 🧪 Linting
+
+```bash
+npm run lint
+```
+
+---
+
+## 📤 Deployment
+
+Recommended platforms:
+
+* **Vercel** (first-class Next.js support)
+* Netlify
+* AWS Amplify
+
+Deploy instantly via:
+
+```bash
+vercel deploy
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to open issues or submit pull requests.
+
+---
+
+## 📜 License
+
+MIT License © 2025
+
+---
+
+## 📧 Contact
+
+For questions, suggestions, or improvements:
+
+**Your Name**
+Email: [youremail@example.com](mailto:youremail@example.com)
+GitHub: [https://github.com/yourprofile](https://github.com/yourprofile)
+
+```
+
+---
+
+If you'd like, I can also add:
+
+🔹 A "Screenshots" section  
+🔹 A "Roadmap"  
+🔹 Instructions for adding new stock tickers  
+🔹 A dark/light mode preview mockup  
+
+Just tell me!
+```
