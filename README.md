@@ -1,17 +1,4 @@
-\Here is a clean, professional, production-ready **README.md** for your stock-price dashboard project, written fully in **English**, and tailored to your Next.js 16 + Tailwind + Radix UI + shadcn-related stack.
 
-If you want, I can also generate:
-✅ badges,
-✅ screenshots section,
-✅ environment variables section,
-✅ deployment guide,
-or a more minimal version.
-
----
-
-# 📄 **README.md**
-
-````md
 # 📊 Stock Price Dashboard
 
 A modern and interactive dashboard built with **Next.js 16**, **React 19**, **Tailwind CSS**, and **Radix UI**, designed to visualize and track stock market prices in real time.  
@@ -66,8 +53,6 @@ git clone <your-repo-url>
 cd dashboard
 pnpm install     # or npm install / yarn install
 ````
-
----
 
 ## 🏃‍♂️ Running the Project
 
