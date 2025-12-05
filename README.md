@@ -156,26 +156,4 @@ Feel free to open issues or submit pull requests.
 
 MIT License © 2025
 
----
-
-## 📧 Contact
-
-For questions, suggestions, or improvements:
-
-**Your Name**
-Email: [youremail@example.com](mailto:youremail@example.com)
-GitHub: [https://github.com/yourprofile](https://github.com/yourprofile)
-
-```
-
----
-
-If you'd like, I can also add:
-
-🔹 A "Screenshots" section  
-🔹 A "Roadmap"  
-🔹 Instructions for adding new stock tickers  
-🔹 A dark/light mode preview mockup  
-
-Just tell me!
 ```
