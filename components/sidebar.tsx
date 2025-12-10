@@ -44,8 +44,8 @@ export function Sidebar() {
           <span className="text-sm font-medium tracking-wide">ANALYTICS</span>
         </Link>
         <Link
-          href="#"
-          className={`flex items-center gap-4 transition-colors cursor-not-allowed ${
+          href="/arbitrader"
+          className={`flex items-center gap-4 transition-colors cursor-pointer ${
             isActive("/arbitrader")
               ? "text-[#E7E7E7]"
               : "text-[#919191]"
@@ -55,8 +55,8 @@ export function Sidebar() {
           <span className="text-sm font-medium tracking-wide">ARBITRADER</span>
         </Link>
         <Link
-          href="#"
-          className={`flex items-center gap-4 transition-colors cursor-not-allowed ${
+          href="/researcher"
+          className={`flex items-center gap-4 transition-colors cursor-pointer ${
             isActive("/researcher") ? "text-[#E7E7E7]" : "text-[#919191] "
           }`}
         >
